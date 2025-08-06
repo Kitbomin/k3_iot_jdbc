@@ -31,7 +31,7 @@ package org.example.이론;
     3. JDBC 연결 흐름
         JDBC = JAVA + DB를 연결하는 다리
 
-        1) JDBC 드라이버 로드 
+        1) JDBC 드라이버 로드
             - 자바가 DB와 통신하기 위해서는 JDBC 드라이버가 필요함
             - JDBC 드라이버는 DBMS 별로 제공 됨 (MySQL - com.mysql.cj.jdbc.Driver)
             - Class.forName() 을 사용해 메모리에 적재해야함
