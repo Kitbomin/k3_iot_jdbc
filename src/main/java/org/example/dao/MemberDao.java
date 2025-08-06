@@ -123,7 +123,6 @@ public class MemberDao {
 
             pstmt.executeUpdate();
 
-
             pstmt.close();
 
         }catch (Exception e) {
